@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>To-Do List</title>
+   <link rel="stylesheet" href="int.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/e21c10a9bd.js" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sortable/0.9.13/jquery-sortable-min.js" integrity="sha512-9pm50HHbDIEyz2RV/g2tn1ZbBdiTlgV7FwcQhIhvykX6qbQitydd6rF19iLmOqmJVUYq90VL2HiIUHjUMQA5fw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+   <div class="container">
+      <form class="todo_form">
+         <h1 class="todo_title" data-shadow='TO DO LIST!'>TO DO LIST!  <i class="fa-regular fa-circle-check"></i></h1>
+         <div class="todo_div" id="todo-div">
+            <input type="text" class="task_title" id="task-title" placeholder="Task Title">
+            <input type="text" class="task_descr" id="task-description" placeholder="Task Description">
+            <input type="datetime-local" class="task_date" id="task-date">
+            <button id ="task-send" class="fa-regular fa-plus"></button>
+         </div>
+      </form>
+      <div class="todo_container">
+
+        <!--<div class="tasks">
+            <div class="task_left">
+                <span class="todo_title">JS çalış ${element.title}</span> 
+                <span class="todo_descr">Javascript öğrenmen gerekiyor.${element.text}</span>
+                <time class="todo_date">16.05.2023${element.date}</time>           
+            </div>
+            
+            <div class="task_right">  
+                     
+                <button class="todo_delete"id="${index}"onclick="deleteTask(this.id)"></button>
+                <button class="todo_edit"id="${index}"onclick="editTask(this.id)"></button>
+                <input type="checkbox" id="${index}" onclick="doneTask(this.id)" class="todo_cb">
+                
+            </div>
+
+
+        </div>
+      </div> -->
+   </div>
+
+   <script src="int.js"></script>
+</body>
+</html>
+
+

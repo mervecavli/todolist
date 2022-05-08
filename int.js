@@ -40,6 +40,7 @@ const startConf = () => {
            taskin.style.borderColor = 'transparent';
            date.style.borderColor = 'transparent';
         }, 2500);
+        alert("Dear Shiva Gupta, please enter task title, task description and task date :D");
         return false;
     }
     const todo = {

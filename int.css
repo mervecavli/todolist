@@ -175,7 +175,7 @@ h1 {
     padding-left: 620px;
 }
 .todo_delete {
-    background-color: tomato;
+    background-color: rgb(255, 61, 27);
     padding: 6px 8px;
     margin-bottom: 5px;
     font-size: 0.9rem;
@@ -186,8 +186,20 @@ h1 {
     cursor: pointer;
     transition: 0.3s ease all;
 }
+.todo_delete:hover{
+    background-color: rgb(255, 38, 0);
+    padding: 6px 8px;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: rgb(0, 0, 0);
+    border-radius: 4px 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
 .todo_edit {
-    background-color: rgb(61, 224, 116);
+    background-color: rgb(252, 255, 68);
     margin-left: 10px;
     padding: 6px 8px;
     font-size: 0.9rem;
@@ -198,6 +210,19 @@ h1 {
     cursor: pointer;
     transition: 0.3s ease all;
 } 
+.todo_edit:hover{
+    background-color: rgb(251, 255, 0);
+    margin-left: 10px;
+    padding: 6px 8px;
+    font-size: 0.9rem;
+    color: rgb(0, 0, 0);
+    border-radius: 4px 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s ease all;
+
+}
 .todo_cb{
     background-color: grey; 
     border-radius: 100%;
